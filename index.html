@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d16">
+  <title>Para Sheila, com carinho ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow one"></div><div class="glow two"></div>
+  <div class="wrap">
+    <header><div class="brand">uma carta para ti <span>♡</span></div><div class="date">22 · 11 · 2026</div></header>
+    <main>
+      <div>
+        <section class="intro">
+          <div class="eyebrow">Há coisas que merecem ser ditas</div>
+          <h1>Sheila,<br><em>isto é para ti.</em></h1>
+          <p>Preparei este pequeno espaço porque há sentimentos que não cabem numa simples mensagem. E tu mereces mais do que palavras apressadas.</p>
+        </section>
+
+        <section class="photos" aria-label="Fotografias da Sheila">
+          <div class="photo-heading"><span class="eyebrow">Um sorriso que merece ficar</span><h2>Há beleza nos detalhes.</h2><p>Alguns momentos teus que quis guardar nesta pequena surpresa.</p></div>
+          <div class="photo-grid">
+            <figure class="photo photo-main"><img src="assets/foto-1.jpg" alt="Fotografia da Sheila, de pé diante de um edifício"><figcaption>Há imagens que dizem muito, mesmo em silêncio. ♡</figcaption></figure>
+            <figure class="photo"><img src="assets/foto-2.jpg" alt="Fotografia da Sheila a sorrir"><figcaption>O teu jeito, tão teu.</figcaption></figure>
+            <figure class="photo"><img src="assets/foto-3.jpg" alt="Fotografia da Sheila num momento especial"><figcaption>Um instante para recordar.</figcaption></figure>
+          </div>
+        </section>
+        
+        <section class="music" aria-label="Música">
+          <span class="eyebrow">A nossa banda sonora</span>
+          <h2>Aliança <em>· Tribalistas, ao vivo</em></h2>
+          <p>Abre a carta e a música começa. Podes pausá-la quando quiseres.</p>
+          <div class="player"><div id="yt"></div></div>
+        </section>
+
+        <div class="envelope-area">
+          <button class="envelope" id="envelope" aria-label="Abrir a carta">
+            <div class="env-back"></div><div class="letter"><span>Com carinho, para ti</span></div>
+            <div class="env-front"></div><div class="env-flap"></div><div class="seal">♡</div>
+          </button>
+          <div class="hint" id="hint">TOCA NA CARTA PARA A ABRIR</div>
+        </div>
+        <article class="letter-content" id="letter">
+          <div class="small">22 de Novembro de 2026 · Um dia para guardar</div>
+          <h2>Querida Sheila Francisco Cuinica,</h2>
+          <p>Não sei se existem palavras perfeitas para explicar aquilo que alguém nos faz sentir. Talvez não existam. Mas hoje decidi tentar, porque há pessoas que merecem saber o lugar especial que ocupam na nossa vida. Tu és uma delas.</p>
+          <p>Gosto da ideia de te conhecer cada vez mais, de descobrir os pequenos detalhes que fazem de ti quem és, de partilhar conversas, sorrisos, momentos simples e até aqueles dias em que nem tudo corre como esperamos.</p>
+          <p>Não te prometo uma história sem desafios, nem que todos os dias serão perfeitos. Prometo-te, isso sim, sinceridade, respeito, cuidado e vontade de construir algo bonito. Quero estar presente não apenas nos momentos fáceis, mas também quando a vida pedir paciência, compreensão e companheirismo.</p>
+          <p>Não quero apressar o tempo nem oferecer-te palavras vazias. Quero que, se escolheres caminhar comigo, sintas que tens ao teu lado alguém que te escolhe com intenção, que te respeita e que não deixa de cuidar daquilo que juntos construirmos.</p>
+          <p>Hoje, em vez de guardar tudo isto para mim, escolhi transformar o sentimento numa pergunta. Uma pergunta simples, mas que significa muito para mim.</p>
+          <div class="signature">Com carinho, Aristides ♡</div>
+          <div class="question">
+            <h3>Sheila, aceitas namorar comigo?</h3>
+            <p>Gostava muito que este fosse o início de uma história nossa.</p>
+            <div class="buttons">
+              <button class="choice yes" id="yes">Sim, aceito! ♡</button>
+              <button class="choice later" id="later">Quero pensar um bocadinho</button>
+            </div>
+            <div class="answer" id="answer"></div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer>FEITO COM CARINHO · PARA SHEILA · 22.11.2026</footer>
+  </div>
+  
+  <button class="music-toggle" id="musicToggle" aria-label="Tocar ou pausar a música">♪</button>
+  <script src="script.js"></script>
+  <script src="https://www.youtube.com/iframe_api" async></script>
+</body>
+</html>
